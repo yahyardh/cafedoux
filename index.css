@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    background-color: #f7f3eb;
+    color: #3e2723;
+    text-align: center;
+}
+
+
+.hero-section {
+    background-image: url('coffee.webp');
+
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.navigation button {
+    background-color: #d3a77b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navigation button:hover {
+    background-color: #b28962;
+}
+
+.navigation button:focus {
+    outline: none;
+}
